@@ -58,14 +58,12 @@ def add_s(array)
   end
   array
 end
+
+# solving 'advanced' method needs more work...
 #   array_new = []
-#   # remove_s = "feet".chomp("s")
 #
 #   array.each_with_index.collect do |word, index|
-#     # array_new = (word.insert(-1, 's'))
-#   # array_new = word.delete(index[1])
 #   array_new << "#{word}".insert(-1, 's')
 #   end
-#   if "#{words[1]}".to_s.chars.last == ‘s’
-#     words[1] = event_contents[0…-1]
+#   array_new
 # end
