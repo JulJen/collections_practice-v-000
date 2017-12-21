@@ -56,12 +56,12 @@ end
 
 
 def add_s(array)
-  arr.each do |word|
+  array.each do |word|
     if word == "feet"
     else word << "s"
     end
   end
-  arr
+  array
 end
 #   array_new = []
 #   # remove_s = "feet".chomp("s")
