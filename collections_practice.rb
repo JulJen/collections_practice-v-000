@@ -58,10 +58,11 @@ def add_s(array)
   # remove_s = "feet".chomp("s")
 
   # array.each_with_index.collect do |word, index|
-    # array_new = (word.insert(-1, 's'))
-  # array_new = word.delete(index[1])
-
+  #   # array_new = (word.insert(-1, 's'))
+  # # array_new = word.delete(index[1])
   # array_new << "#{word[4]}".insert(-1, 's')
+  # end
+
   array.each do |add|
    if add == "feet"
      puts "feet"
@@ -70,10 +71,6 @@ def add_s(array)
    end
  end
 end
-  end
-    # array_new = array_new.delete[word[2]]
-  # end
-
 
   # end
   #   [array.tap(&:pop)].join(", ")
