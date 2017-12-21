@@ -61,7 +61,7 @@ def add_s(array)
     # array_new = (word.insert(-1, 's'))
   # array_new = word.delete(index[1])
 
-  array_new << "#{word[3]}".insert(-1, 's')
+  array_new << "#{word[4]}".insert(-1, 's')
 
   end
     # array_new = array_new.delete[word[2]]
