@@ -35,7 +35,7 @@ end
 
 
 def kesha_maker(array)
-  arr.each{|word| word[2] = "$" }
+  array.each{|word| word[2] = "$" }
 end
 #   array_new = []
 #   array.each do |word|
