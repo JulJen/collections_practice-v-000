@@ -59,10 +59,10 @@ def add_s(array)
 
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
-    array_new = "#{word}".insert(-1, 's')
+    array_new << word.delete_at(1) + "#{word}".insert(-1, 's')
   end
     array_new = array_new.delete[word[2]]
-  end
+  # end
 
 
   # end
