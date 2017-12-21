@@ -37,12 +37,6 @@ end
 def kesha_maker(array)
   array.each{|word| word[2] = "$" }
 end
-#   array_new = []
-#   array.each do |word|
-#     array_new << word[0..1] + (word[2].replace "$") + word[3..-1]
-#   end
-#   array_new
-# end
 
 
 def find_a(array)
@@ -51,7 +45,8 @@ end
 
 
 def sum_array(array)
-  array.inject {|number, index| number += index; number}
+  arr.inject{|sum, num| sum+num }
+  # array.inject {|number, index| number += index; number}
 end
 
 
