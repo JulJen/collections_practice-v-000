@@ -60,7 +60,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
   # array_new = word.delete(index[1])
-  array_new = word[2].replace "$"
+  array_new = word[-1].replace "s"
   # array_new << "#{word}".insert(-1, 's')
 
   end
