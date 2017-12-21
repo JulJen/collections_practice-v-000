@@ -35,12 +35,14 @@ end
 
 
 def kesha_maker(array)
-  array_new = []
-  array.each do |word|
-    array_new << word[0..1] + (word[2].replace "$") + word[3..-1]
-  end
-  array_new
+  arr.each{|word| word[2] = "$" }
 end
+#   array_new = []
+#   array.each do |word|
+#     array_new << word[0..1] + (word[2].replace "$") + word[3..-1]
+#   end
+#   array_new
+# end
 
 
 def find_a(array)
@@ -62,6 +64,9 @@ def add_s(array)
   # array_new = word.delete(index[1])
   array_new << "#{word}".insert(-1, 's')
   end
+  if "#{words[1]}".to_s.chars.last == ‘s’
+    words[1] = event_contents[0…-1]
+end
 
     # array_new = array_new.delete[word[2]]
 
