@@ -55,7 +55,7 @@ end
 
 def add_s(array)
   array_new = []
-  remove_s = "feet".chomp("s")
+  # remove_s = "feet".chomp("s")
 
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
