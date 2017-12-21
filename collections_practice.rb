@@ -55,10 +55,12 @@ end
 
 def add_s(array)
   array_new = []
+  plural = "feet"
 
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
     "#{word}".insert(-1, 's')
+  array_new = 
   # end
   #   [array.tap(&:pop)].join(", ")
   #   "#{array_new}"
