@@ -61,7 +61,7 @@ def add_s(array)
     # array_new = (word.insert(-1, 's'))
     array_new = "#{word}".insert(-1, 's')
   end
-  
+
 
   # end
   #   [array.tap(&:pop)].join(", ")
