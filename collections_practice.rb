@@ -59,10 +59,7 @@ def add_s(array)
 
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
-    if !(word.include? "feet")
-    #   puts word.shift
-    # else
-    ("#{word}".insert(-1, 's')
+  array_new << word(remove_s) + ("#{word}".insert(-1, 's')
 
   # end
   #   [array.tap(&:pop)].join(", ")
