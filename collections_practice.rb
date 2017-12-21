@@ -57,7 +57,7 @@ def add_s(array)
   array_new = []
 
   array.each_with_index.collect do |word, index|
-    array_new = word << (word.insert(-1, 's'))
+    array_new = array(word) << (word.insert(-1, 's'))
 
   # array.each_with_index.collect do |word, index|
   #   array_new = (word.insert(-1, 's')
