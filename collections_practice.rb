@@ -54,25 +54,25 @@ end
 
 
 def add_s(array)
-  array_new = []
-  # remove_s = "feet".chomp("s")
-
-  array.each_with_index.collect do |word, index|
-    # array_new = (word.insert(-1, 's'))
-  # array_new = word.delete(index[1])
-  array_new << "#{word[4]}".insert(-1, 's')
-  end
-
-    # array_new = array_new.delete[word[2]]
-
-  #   [array.tap(&:pop)].join(", ")
-  #   "#{array_new}"
-
-  # array.each_with_index.collect do |word, index|
-  #   array_new = (word.insert(-1, 's')
-    # array_new << (word[index[0]].insert(-1, 's'))
-  array_new
-end
+#   array_new = []
+#   # remove_s = "feet".chomp("s")
+#
+#   array.each_with_index.collect do |word, index|
+#     # array_new = (word.insert(-1, 's'))
+#   # array_new = word.delete(index[1])
+#   array_new << "#{word[4]}".insert(-1, 's')
+#   end
+#
+#     # array_new = array_new.delete[word[2]]
+#
+#   #   [array.tap(&:pop)].join(", ")
+#   #   "#{array_new}"
+#
+#   # array.each_with_index.collect do |word, index|
+#   #   array_new = (word.insert(-1, 's')
+#     # array_new << (word[index[0]].insert(-1, 's'))
+#   array_new
+# end
 
 
 array.each do |add|
