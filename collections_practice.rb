@@ -59,7 +59,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
     if word.include?("feet")
-      false
+      puts "feet"
     else
       array_new = "#{word}".insert(-1, 's')
 
@@ -72,7 +72,7 @@ def add_s(array)
     # array_new << (word[index[0]].insert(-1, 's'))
     end
     array_new
-  end 
+  end
 end
 
 # # Question 9
