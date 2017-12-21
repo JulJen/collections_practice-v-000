@@ -59,7 +59,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
     if word.include?("feet")
-      array_new = 1.times do array.chop!
+      word.unshift
     else
       array_new = "#{word}".insert(-1, 's')
 
