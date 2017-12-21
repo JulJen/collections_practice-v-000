@@ -61,7 +61,7 @@ def add_s(array)
     # if word.include?("feet")
     #   puts word.shift
     # else
-      array_new.shift = "#{word}".insert(-1, 's')
+      array_new = "#{word}".insert(-1, 's').shift
 
   # end
   #   [array.tap(&:pop)].join(", ")
