@@ -59,6 +59,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     # array_new = (word.insert(-1, 's'))
     if word.include?("feet")
+      array[1].1.times do name.chop!
     else
       array_new = "#{word}".insert(-1, 's')
 
